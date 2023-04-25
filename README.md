@@ -1,6 +1,26 @@
 # Pizza SQL Analysis
 
-The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-playground)
+The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-playground) under the name Pizza Place Sales with a total of 4 tables with 48,620 records and 12 fields in total.
+
+## Table Summary
+
+- Order Details
+
+  The table has the order_details_id which is the primary key of the table along with the order_id, pizza_id as the foreign key of the orders and pizzas table and last, we have the quantity column of each type of pizza.
+
+- Orders
+
+  This table include the order_id which is the primary key, it also has the date and time of each order.
+
+- Pizza Types
+
+  We have the pizza_type_id as the primary key, along with the name, category and ingredients of each pizza.
+
+- Pizzas
+
+  The Pizzas table has the pizza_id as primary key, pizza_type_id as the foreign key from the pizza types table, it also include the size and price of the pizzas.
+
+## Queries & Insights
 
 ### 1. How many customers do we have each day?
 ```
