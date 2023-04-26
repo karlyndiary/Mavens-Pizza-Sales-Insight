@@ -22,7 +22,7 @@ The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-pla
 
   The Pizzas table has the pizza_id as primary key, pizza_type_id as the foreign key from the pizza types table, it also include the size and price of the pizzas.
 
-![Pizza ER Diagram drawio](https://user-images.githubusercontent.com/116041695/234191058-e5da63b5-5aad-409f-9035-e5daf4f2b810.png)
+![Pizza ER Diagram](https://user-images.githubusercontent.com/116041695/234453809-bad07e16-55ed-4640-b1c9-7d16cfb143ff.png)
 
 ## Queries & Insights
 
