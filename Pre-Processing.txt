@@ -1,9 +1,9 @@
-### Query to add a column to an existing table
+Query to add a column to an existing table
 
 ALTER TABLE pizza.dbo.orders 
 ADD weekday varchar(50);
 
-### Query to update the weekday column in the orders table
+Query to update the weekday column in the orders table
 
 UPDATE pizza.dbo.orders
 SET weekday = CASE 
