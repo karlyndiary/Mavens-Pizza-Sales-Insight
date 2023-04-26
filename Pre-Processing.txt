@@ -14,5 +14,3 @@ SET weekday = CASE
     WHEN DATEPART(weekday, date) = 6 THEN 'Friday'
     WHEN DATEPART(weekday, date) = 7 THEN 'Saturday'
 END;
-
-
