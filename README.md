@@ -50,7 +50,7 @@ ORDER by total_quantity DESC;
 
 ### 4. Are there any peak hours?
 ```
-SELECT count(order_id) as Orders, DATEPART(HOUR, time) AS Hours
+SELECT count(order_id) as orders, DATEPART(HOUR, time) AS hours
 FROM pizza.dbo.orders
 GROUP BY DATEPART(HOUR, time) 
 ORDER BY orders DESC;
