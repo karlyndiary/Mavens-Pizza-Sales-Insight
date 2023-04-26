@@ -36,7 +36,16 @@ from pizza.dbo.orders
 select count(order_details_id)/count(distinct order_id) as avg_no_of_pizzas_per_order
 from pizza.dbo.order_details
 ```
-### 3. Are there any peak hours?
+
+### 3. Do we have any bestsellers?
+```
+SELECT sum(quantity) AS total_quantity, pizza_id
+FROM pizza.dbo.order_details
+GROUP BY pizza_id
+order by total_quantity desc
+```
+
+### 4. Are there any peak hours?
 ```
 SELECT count(order_id) as orders, DATEPART(HOUR, time) AS Hours
 FROM pizza.dbo.orders
