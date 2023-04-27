@@ -63,3 +63,11 @@ FROM pizza.dbo.orders
 GROUP BY weekday 
 ORDER BY orders DESC;
 ```
+### 6. Which pizza generated the most revenue?
+```
+SELECT p.pizza_id, p.price * count(quantity) as revenue 
+FROM pizza.dbo.pizzas p inner join 
+pizza.dbo.order_details od on p.pizza_id = od.pizza_id
+GROUP BY p.pizza_id, p.price
+ORDER BY revenue DESC;
+```
