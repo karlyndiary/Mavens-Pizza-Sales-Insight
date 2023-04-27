@@ -2,7 +2,7 @@
 
 ![pizza cover](https://user-images.githubusercontent.com/116041695/234172419-28b8f5ed-425d-477f-9586-44c2a86d456e.jpg)
 
-Table of Content:
+## Table of Content:
 
 * [1. Table Summary](#1-table-summary)
 * [2. ER Diagram](#2-er-diagram)
