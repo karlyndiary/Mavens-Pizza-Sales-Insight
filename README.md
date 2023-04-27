@@ -63,6 +63,7 @@ FROM pizza.dbo.orders
 GROUP BY weekday 
 ORDER BY orders DESC;
 ```
+
 ### 6. Which pizza generated the most revenue?
 ```
 SELECT p.pizza_id, p.price * count(quantity) as revenue 
@@ -70,4 +71,12 @@ FROM pizza.dbo.pizzas p inner join
 pizza.dbo.order_details od on p.pizza_id = od.pizza_id
 GROUP BY p.pizza_id, p.price
 ORDER BY revenue DESC;
+```
+
+### 7.How many pizzas are we making during peak periods?
+```
+SELECT DATEPART(HOUR, time) AS hours, count(distinct(o.order_id)) as total_orders, count(quantity) as total_quantity 
+FROM pizza.dbo.orders o join pizza.dbo.order_details od on o.order_id = od.order_id
+GROUP BY DATEPART(HOUR, time) 
+ORDER BY total_orders DESC;
 ```
