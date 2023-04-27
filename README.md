@@ -4,9 +4,9 @@
 
 ## Table of Content:
 
-* [Table Summary](table-summary)
-* [ER Diagram](er-diagram)
-* [Queries and Insights](queries-and-insights)
+* [1. Table Summary](#1-table-summary)
+* [2. ER Diagram](#2-er-diagram)
+* [3. Queries and Insights](#3-queries-and-insights)
 
 The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-playground) under the name Pizza Place Sales with a total of 4 tables with 48,620 records and 12 fields in total.
 
