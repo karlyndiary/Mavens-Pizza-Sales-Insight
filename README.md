@@ -2,6 +2,12 @@
 
 ![pizza cover](https://user-images.githubusercontent.com/116041695/234172419-28b8f5ed-425d-477f-9586-44c2a86d456e.jpg)
 
+Table of Content:
+
+* [1. Table Summary](#1-table-summary)
+* [2. ER Diagram](#2-er-diagram)
+* [3. Queries and Insights](#3-queries-and-insights)
+
 The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-playground) under the name Pizza Place Sales with a total of 4 tables with 48,620 records and 12 fields in total.
 
 ## Table Summary
@@ -26,7 +32,7 @@ The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-pla
 
 ![Pizza ER Diagram](https://user-images.githubusercontent.com/116041695/234453942-3df6eb5c-52cb-4386-a385-bec29cd8e060.png)
 
-## Queries & Insights
+## Queries and Insights
 
 ### 1. How many customers do we have each day?
 ```
