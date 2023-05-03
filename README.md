@@ -74,7 +74,10 @@ Friday, Saturday, and Thursday are the days with the highest customer traffic, o
 
 ### 5. Which month experienced the highest number of orders or customers?
 ```
-
+SELECT count(order_id) as orders, month
+FROM pizza.dbo.orders
+GROUP BY month 
+ORDER BY orders DESC;
 ```
 
 ### 6. How many pizzas are we making during peak hour?
