@@ -7,6 +7,7 @@
 * [Data Summary](#data-summary)
 * [ER Diagram](#er-diagram)
 * [Queries and Insights](#queries-and-insights)
+* [Excel Dashboard](#excel-dashboard)
 
 ## Data Summary
 
