@@ -103,4 +103,4 @@ ORDER BY revenue DESC;
 The Thai Chicken Pizza in size large is the top revenue-generating pizza, with a total revenue of $28,323.75.
 
 ## Excel Dashboard
-![Pizza Dashboard](https://user-images.githubusercontent.com/116041695/235836817-b4fdd934-cd12-4810-9467-b779617ffbc2.png)
+![Pizza Dashboard](https://user-images.githubusercontent.com/116041695/235840524-6b8afb25-a6da-4a4a-b10c-aa4574ab5206.png)
