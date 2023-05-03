@@ -72,19 +72,24 @@ ORDER BY orders DESC;
 ```
 Friday, Saturday, and Thursday are the days with the highest customer traffic, or peak days.
 
-### 5. Which pizza generated the most revenue?
+### 5. Which month experienced the highest number of orders or customers?
+```
+
+```
+
+### 6. How many pizzas are we making during peak hour?
+```
+SELECT DATEPART(HOUR, time) AS hours, count(distinct(o.order_id)) as total_orders, count(quantity) as total_quantity 
+FROM pizza.dbo.orders o join pizza.dbo.order_details od on o.order_id = od.order_id
+GROUP BY DATEPART(HOUR, time) 
+ORDER BY total_orders DESC;
+```
+
+### 7. Which pizza generated the most revenue?
 ```
 SELECT p.pizza_id, p.price * count(quantity) as revenue 
 FROM pizza.dbo.pizzas p inner join 
 pizza.dbo.order_details od on p.pizza_id = od.pizza_id
 GROUP BY p.pizza_id, p.price
 ORDER BY revenue DESC;
-```
-
-### 6. How many pizzas are we making during peak periods?
-```
-SELECT DATEPART(HOUR, time) AS hours, count(distinct(o.order_id)) as total_orders, count(quantity) as total_quantity 
-FROM pizza.dbo.orders o join pizza.dbo.order_details od on o.order_id = od.order_id
-GROUP BY DATEPART(HOUR, time) 
-ORDER BY total_orders DESC;
 ```
