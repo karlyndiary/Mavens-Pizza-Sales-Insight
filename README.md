@@ -103,5 +103,14 @@ ORDER BY revenue DESC;
 ```
 The Thai Chicken Pizza in size large is the top revenue-generating pizza, with a total revenue of $28,323.75.
 
+### 8. What is the total revenue from 2015?
+```
+SELECT ROUND(SUM(p.price * od.quantity),2) AS total_revenue
+FROM  pizza.dbo.pizzas p
+JOIN pizza.dbo.order_details od
+ON p.pizza_id = od.pizza_id;
+```
+Total revenue for the year 2015 is $817860.05.
+
 ## Excel Dashboard
 ![Pizza Dashboard](https://user-images.githubusercontent.com/116041695/235840524-6b8afb25-a6da-4a4a-b10c-aa4574ab5206.png)
