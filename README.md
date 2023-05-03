@@ -72,13 +72,14 @@ ORDER BY orders DESC;
 ```
 Friday, Saturday, and Thursday are the days with the highest customer traffic, or peak days.
 
-### 5. Which month experienced the highest number of orders or customers?
+### 5. Which month experienced the highest number of orders?
 ```
 SELECT count(order_id) as orders, month
 FROM pizza.dbo.orders
 GROUP BY month 
 ORDER BY orders DESC;
 ```
+July had the highest number of orders.
 
 ### 6. How many pizzas are we making during peak hour?
 ```
@@ -87,6 +88,7 @@ FROM pizza.dbo.orders o join pizza.dbo.order_details od on o.order_id = od.order
 GROUP BY DATEPART(HOUR, time) 
 ORDER BY total_orders DESC;
 ```
+At 12 PM, the restaurant received 2520 orders, which consisted of 6543 pizzas in total.
 
 ### 7. Which pizza generated the most revenue?
 ```
