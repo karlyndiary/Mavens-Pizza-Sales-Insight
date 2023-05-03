@@ -40,6 +40,8 @@ SELECT count(order_id)/count(distinct date) as average_customers_per_day
 FROM pizza.dbo.orders
 ```
 
+The average daily customer traffic is 59.
+
 ### 2. How many pizzas are typically in an order?
 ```
 SELECT count(order_details_id)/count(distinct order_id) as avg_no_of_pizzas_per_order
