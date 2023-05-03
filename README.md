@@ -92,9 +92,11 @@ At 12 PM, the restaurant received 2520 orders, which consisted of 6543 pizzas in
 
 ### 7. Which pizza generated the most revenue?
 ```
-SELECT p.pizza_id, p.price * count(quantity) as revenue 
-FROM pizza.dbo.pizzas p inner join 
-pizza.dbo.order_details od on p.pizza_id = od.pizza_id
-GROUP BY p.pizza_id, p.price
+SELECT p.price * COUNT(quantity) AS revenue, CONCAT(pt.name, ' ', p.size) AS pizza_name_size
+FROM pizza.dbo.order_details od 
+JOIN pizza.dbo.pizzas p ON od.pizza_id = p.pizza_id
+JOIN pizza.dbo.pizza_types pt ON p.pizza_type_id = pt.pizza_type_id
+GROUP BY p.pizza_id, p.price, CONCAT(pt.name, ' ', p.size)
 ORDER BY revenue DESC;
 ```
+The Thai Chicken Pizza in size large is the top revenue-generating pizza, with a total revenue of $28,323.75.
