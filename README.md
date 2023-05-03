@@ -63,13 +63,14 @@ ORDER BY total_quantity DESC;
 ```
 Based on sales, the three most popular pizzas are The Big Meat Pizza (in size small), The Thai Chicken Pizza (in size large), and The Five Cheese Pizza (in size large).
 
-### 4. Are there any peak hours?
+### 4. Are there any peak days?
 ```
-SELECT count(order_id) as orders, DATEPART(HOUR, time) AS hours
+SELECT count(order_id) as orders, weekday
 FROM pizza.dbo.orders
-GROUP BY DATEPART(HOUR, time) 
+GROUP BY weekday 
 ORDER BY orders DESC;
 ```
+Friday, Saturday, and Thursday are the days with the highest customer traffic, or peak days.
 
 ### 5. Which pizza generated the most revenue?
 ```
