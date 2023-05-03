@@ -84,7 +84,8 @@ July had the highest number of orders.
 
 ### 6. How many pizzas are we making during peak hour?
 ```
-SELECT DATEPART(HOUR, time) AS hours, count(distinct(o.order_id)) as total_orders, count(quantity) as total_quantity 
+SELECT DATEPART(HOUR, time) AS hours, count(distinct(o.order_id)) as total_orders, 
+  count(quantity) as total_quantity 
 FROM pizza.dbo.orders o join pizza.dbo.order_details od on o.order_id = od.order_id
 GROUP BY DATEPART(HOUR, time) 
 ORDER BY total_orders DESC;
