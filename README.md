@@ -101,3 +101,6 @@ GROUP BY p.pizza_id, p.price, CONCAT(pt.name, ' ', p.size)
 ORDER BY revenue DESC;
 ```
 The Thai Chicken Pizza in size large is the top revenue-generating pizza, with a total revenue of $28,323.75.
+
+## Excel Dashboard
+
