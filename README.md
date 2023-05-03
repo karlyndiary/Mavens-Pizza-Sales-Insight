@@ -61,7 +61,7 @@ JOIN pizza.dbo.pizza_types pt ON p.pizza_type_id = pt.pizza_type_id
 GROUP BY p.pizza_id, pt.name, p.size
 ORDER BY total_quantity DESC;
 ```
-Based on sales, the three most popular pizzas are The Big Meat Pizza (in size small), The Thai Chicken Pizza, and The Five Cheese Pizza (in size large).
+Based on sales, the three most popular pizzas are The Big Meat Pizza (in size small), The Thai Chicken Pizza (in size large), and The Five Cheese Pizza (in size large).
 
 ### 4. Are there any peak hours?
 ```
