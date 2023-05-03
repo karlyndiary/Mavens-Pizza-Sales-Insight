@@ -51,11 +51,14 @@ On average, customers order 2 pizzas per order.
 
 ### 3. Do we have any bestsellers?
 ```
-SELECT sum(quantity) AS total_quantity, pizza_id
-FROM pizza.dbo.order_details
-GROUP BY pizza_id
+SELECT sum(quantity) AS total_quantity, pt.name, p.size
+FROM pizza.dbo.order_details od 
+	 join pizza.dbo.pizzas p on od.pizza_id = p.pizza_id
+	 join pizza.dbo.pizza_types pt on p.pizza_type_id = pt.pizza_type_id
+GROUP BY pt.name, p.size
 ORDER by total_quantity DESC;
 ```
+Based on sales, the three most popular pizzas are The Big Meat Pizza (in size small), The Thai Chicken Pizza, and The Five Cheese Pizza (in size large).
 
 ### 4. Are there any peak hours?
 ```
