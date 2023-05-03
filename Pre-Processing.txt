@@ -1,4 +1,4 @@
-Query to add a column to an existing table
+Query to add a weekday column to an existing table
 
 ALTER TABLE pizza.dbo.orders 
 ADD weekday varchar(50);
@@ -15,3 +15,27 @@ SET weekday = CASE
     WHEN DATEPART(weekday, date) = 6 THEN 'Friday'
     WHEN DATEPART(weekday, date) = 7 THEN 'Saturday'
 END;
+
+Query to add a month column to an existing table
+
+ALTER TABLE pizza.dbo.orders 
+ADD month varchar(50);
+
+Query to update the month column in the orders table
+
+UPDATE pizza.dbo.orders
+SET month = 
+   CASE MONTH(date)
+      WHEN 1 THEN 'January'
+      WHEN 2 THEN 'February'
+      WHEN 3 THEN 'March'
+      WHEN 4 THEN 'April'
+      WHEN 5 THEN 'May'
+      WHEN 6 THEN 'June'
+      WHEN 7 THEN 'July'
+      WHEN 8 THEN 'August'
+      WHEN 9 THEN 'September'
+      WHEN 10 THEN 'October'
+      WHEN 11 THEN 'November'
+      WHEN 12 THEN 'December'
+   END;
