@@ -47,6 +47,7 @@ The average daily customer traffic is 59.
 SELECT count(order_details_id)/count(distinct order_id) as avg_no_of_pizzas_per_order
 FROM pizza.dbo.order_details;
 ```
+On average, customers order 2 pizzas per order.
 
 ### 3. Do we have any bestsellers?
 ```
