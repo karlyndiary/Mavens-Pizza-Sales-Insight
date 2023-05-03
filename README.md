@@ -34,12 +34,10 @@ The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-pla
 
 ## Queries and Insights
 
-### 1. How many customers do we have each day?
+### 1. What is the average number of customers per day?
 ```
-SELECT date, COUNT(*) AS no_of_customers
-FROM pizza.dbo.orders        
-GROUP BY date
-ORDER BY no_of_customers DESC;
+SELECT count(order_id)/count(distinct date) as average_customers_per_day
+FROM pizza.dbo.orders
 ```
 
 ### 2. How many pizzas are typically in an order?
