@@ -113,4 +113,4 @@ ON p.pizza_id = od.pizza_id;
 Total revenue for the year 2015 is $817860.05.
 
 ## Excel Dashboard
-![Pizza Dashboard](https://user-images.githubusercontent.com/116041695/235840524-6b8afb25-a6da-4a4a-b10c-aa4574ab5206.png)
+![Pizza Dashboard](https://user-images.githubusercontent.com/116041695/235843398-097bdeb8-22f9-4e8d-8a60-882037f5f182.png)
