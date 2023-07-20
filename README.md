@@ -1,4 +1,4 @@
-# Pizza SQL Analysis
+# Pizza SQL & Excel Analysis
 
 ![pizza cover](https://user-images.githubusercontent.com/116041695/234172419-28b8f5ed-425d-477f-9586-44c2a86d456e.jpg)
 
