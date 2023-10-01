@@ -4,10 +4,22 @@
 
 ## Table of Content
 
+* [Background](#background)
 * [Data Summary](#data-summary)
 * [ER Diagram](#er-diagram)
 * [Queries and Insights](#queries-and-insights)
 * [Excel Dashboard](#excel-dashboard)
+
+## Background
+For the Maven Pizza Challenge, you’ll be playing the role of a BI Consultant hired by Plato's Pizza, a Greek-inspired pizza place in New Jersey. You've been hired to help the restaurant use data to improve operations, and just received the following note:
+
+Welcome aboard, we're glad you're here to help!
+
+Things are going OK here at Plato's, but there's room for improvement. We've been collecting transactional data for the past year, but really haven't been able to put it to good use. Hoping you can analyze the data and put together a report to help us find opportunities to drive more sales and work more efficiently.
+
+Thanks in advance,
+
+Mario Maven (Manager, Plato's Pizza)
 
 ## Data Summary
 
