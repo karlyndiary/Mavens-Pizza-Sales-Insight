@@ -11,7 +11,7 @@
 
 ## Data Summary
 
-The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-playground) under the name Pizza Place Sales with a total of 4 tables with 48,620 records and 12 fields in total.
+The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-playground) under the name Pizza Place Sales with a total of 4 tables with 48,620 records and 12 fields.
 
 - Order Details
 
@@ -19,15 +19,15 @@ The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-pla
 
 - Orders
 
-  This table include the order_id which is the primary key, it also has the date and time of each order.
+  This table includes the order_id which is the primary key, and the date and time of each order.
 
 - Pizza Types
 
-  We have the pizza_type_id as the primary key, along with the name, category and ingredients of each pizza.
+  We have the pizza_type_id as the primary key, along with each pizza's name, category and ingredients.
 
 - Pizzas
 
-  The Pizzas table has the pizza_id as primary key, pizza_type_id as the foreign key from the pizza types table, it also include the size and price of the pizzas.
+  The pizzas table has the pizza_id as the primary key, and the pizza_type_id as the foreign key from the pizza types table, it also includes the size and price of the pizzas.
 
 ## ER Diagram
 
