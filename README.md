@@ -72,25 +72,7 @@ ORDER BY revenue DESC;
 ```
 Based on sales, the three most popular pizzas are The Thai Chicken Pizza, The Barbecue Chicken Pizza, and The California Chicken Pizza.
 
-### 4. Are there any peak days?
-```
-SELECT count(order_id) as orders, weekday
-FROM pizza.dbo.orders
-GROUP BY weekday 
-ORDER BY orders DESC;
-```
-Friday, Thursday, and Saturday are the peak days.
-
-### 5. Which month experienced the highest number of orders?
-```
-SELECT count(order_id) as orders, month
-FROM pizza.dbo.orders
-GROUP BY month 
-ORDER BY orders DESC;
-```
-July had the highest number of orders of 1935.
-
-### 6. How many pizzas are we making during peak hour?
+### 4. How many pizzas are we making during peak hour?
 ```
 SELECT DATEPART(HOUR, time) AS hours, 
 count(distinct(o.order_id)) as total_orders, 
@@ -102,6 +84,24 @@ GROUP BY DATEPART(HOUR, time)
 ORDER BY total_orders DESC;
 ```
 At 12 PM, the restaurant received 2520 orders, which consisted of 6543 pizzas in total.
+
+### 5. Are there any peak days?
+```
+SELECT count(order_id) as orders, weekday
+FROM pizza.dbo.orders
+GROUP BY weekday 
+ORDER BY orders DESC;
+```
+Friday, Thursday, and Saturday are the peak days.
+
+### 6. Which month experienced the highest number of orders?
+```
+SELECT count(order_id) as orders, month
+FROM pizza.dbo.orders
+GROUP BY month 
+ORDER BY orders DESC;
+```
+July had the highest number of orders of 1935.
 
 ### 7. What is the total revenue from 2015?
 ```
