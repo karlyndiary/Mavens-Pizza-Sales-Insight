@@ -219,7 +219,7 @@ GROUP BY
 ORDER BY
     time_of_day;
 ```
-The quantity of orders is highest in the afternoon with 29,468, followed by the evening with 17,356, and the morning with 2,750.
+The number of orders is highest in the afternoon with 29,468, followed by the evening with 17,356, and the morning with 2,750.
 
 ## Excel Dashboard
 ![Pizza Dashboard](https://user-images.githubusercontent.com/116041695/235843398-097bdeb8-22f9-4e8d-8a60-882037f5f182.png)
