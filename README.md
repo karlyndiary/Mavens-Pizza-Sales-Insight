@@ -83,7 +83,7 @@ ON o.order_id = od.order_id
 GROUP BY DATEPART(HOUR, time) 
 ORDER BY total_orders DESC;
 ```
-At 12 PM, the restaurant received 2520 orders, which consisted of 6543 pizzas in total.
+At 12 p.m., the restaurant received 2520 orders, which consisted of 6543 pizzas in total.
 
 ### 5. Are there any peak days?
 ```
@@ -110,7 +110,7 @@ FROM  pizza.dbo.pizzas p
 JOIN pizza.dbo.order_details od
 ON p.pizza_id = od.pizza_id;
 ```
-Total revenue for the year 2015 is $817860.05.
+Total revenue for the year 2015 is $8,17,860.05.
 
 ### 8. Which month had the highest revenue?
 ```
@@ -121,7 +121,7 @@ JOIN pizza.dbo.pizzas p ON od.pizza_id = p.pizza_id
 GROUP BY o.month
 ORDER BY total_price DESC;
 ```
-July had the highest revenue of $71027.45.
+July had the highest revenue of $71,027.45.
 
 ### 9. What are top-selling pizza sizes?
 ```
@@ -132,7 +132,7 @@ JOIN pizza.dbo.order_details od ON p.pizza_id = od.pizza_id
 GROUP BY size
 ORDER BY quantity DESC;
 ```
-The large size pizza received the most orders, totaling 18,956.
+The large-size pizza received the most orders, totalling 18,956.
 
 ### 10. What pizza categories are ordered?
 ```
@@ -143,7 +143,7 @@ JOIN pizza.dbo.order_details od ON p.pizza_id = od.pizza_id
 GROUP BY pt.category
 ORDER BY quantity DESC;
 ```
-There are 4 different categories consisting of Classic, Supreme, Veggie and Chicken.
+There are 4 categories: Classic, Supreme, Veggie and Chicken.
 
 ### 11. What is the average order value?
 ```
@@ -152,21 +152,21 @@ FROM pizza.dbo.orders o
 JOIN pizza.dbo.order_details od ON o.order_id = od.order_id
 JOIN pizza.dbo.pizzas p ON od.pizza_id = p.pizza_id;
 ```
-Average order value is $38.31.
+The average order value is $38.31.
 
 ### 12. What is the average price per pizza?
 ```
 SELECT ROUND(AVG(price),2) AS average_price_per_pizza
 FROM pizza.dbo.pizzas;
 ```
-Average price per pizza is $16.44.
+The average price per pizza is $16.44.
 
-### 13. How many orders in total?
+### 13. How many orders are in total?
 ```
 SELECT count(order_id) AS no_of_orders
 FROM pizza.dbo.orders;
 ```
-Total number of orders is 21350.
+Total number of orders is 21,350.
 
 ### 14. What is the quantity of pizzas sold?
 ```
@@ -192,7 +192,7 @@ CROSS APPLY STRING_SPLIT(pt.ingredients, ',') AS ingredients_split
 GROUP BY TRIM(value)
 ORDER BY count DESC;
 ```
-The most popularly ordered ingredients are Garlic, Tomatoes, Red Onions, Red Peppers, and Mozzarella Cheese.
+Garlic, Tomatoes, Red Onions, Red Peppers, and Mozzarella Cheese are the most popularly ordered ingredients.
 
 ### 17. What is the distribution of order quantities by time of day?
 ```
