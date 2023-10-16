@@ -223,3 +223,12 @@ The number of orders is highest in the afternoon with 29,468, followed by the ev
 
 ## Excel Dashboard
 ![Pizza Dashboard](https://user-images.githubusercontent.com/116041695/235843398-097bdeb8-22f9-4e8d-8a60-882037f5f182.png)
+
+## Recommendations
+Having conducted a thorough analysis of the data, I've identified some valuable insights that have the potential to enhance the business. I would like to propose the following recommendations to the business owners.
+
+* Store credit or points can be applied as discounts when purchasing pizzas. Additionally, by occasionally multiplying these points on random days, sales may experience an uplift.
+* To enhance Sunday revenue, think about reducing working hours to support employee well-being while also driving pizza sales through limited-time B1G1 flash sales.
+* Let customers design custom pizzas with up to 5 toppings. The best ones chosen by the top chef can be added to the menu, and the customer who created it can name the pizza, allowing for regular menu updates based on customer choices.
+* 
+
