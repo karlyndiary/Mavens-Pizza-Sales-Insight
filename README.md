@@ -233,5 +233,3 @@ Having conducted a thorough analysis of the data, I've identified some valuable 
 * October has the lowest revenue, likely due to its seasonal nature, with Halloween as a key factor. To leverage this, think about introducing Halloween-themed pizzas for the whole month or the week leading up to the event. If successful, this approach could extend to incorporating themed pizzas for other festivals too.
 * At the close of the year, gather feedback from customers to identify areas for improvement in the restaurant.
 * Due to the lower demand for XL and XXL-sized pizzas, consider introducing a half-and-half pizza option, allowing customers to enjoy two different pizza varieties on a single pie.
-* 
-
