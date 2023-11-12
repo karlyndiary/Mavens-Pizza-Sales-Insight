@@ -9,6 +9,7 @@
 * [ER Diagram](#er-diagram)
 * [Queries and Insights](#queries-and-insights)
 * [Excel Dashboard](#excel-dashboard)
+* [Recommendations](#recommendations)
 
 ## Background
 For the Maven Pizza Challenge, you’ll be playing the role of a BI Consultant hired by Plato's Pizza, a Greek-inspired pizza place in New Jersey. You've been hired to help the restaurant use data to improve operations, and just received the following note:
