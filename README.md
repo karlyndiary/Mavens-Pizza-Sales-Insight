@@ -224,6 +224,7 @@ The number of orders is highest in the afternoon with 29,468, followed by the ev
 
 ## Excel Dashboard
 ![Maven Pizza Dashboard](https://github.com/karlyndiary/Mavens-Pizza-Sales-Insight/assets/116041695/78250efc-c2a0-4613-8b1e-3229bcf733f8)
+![Group 9](https://github.com/karlyndiary/Mavens-Pizza-Sales-Insight/assets/116041695/18efd11e-34c4-41c3-a4c0-cad7d6fc2e15)
 
 ## Recommendations
 Having conducted a thorough analysis of the data, I've identified some valuable insights that have the potential to enhance the business. I would like to propose the following recommendations to the business owners.
