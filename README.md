@@ -223,7 +223,7 @@ ORDER BY
 The number of orders is highest in the afternoon with 29,468, followed by the evening with 17,356, and the morning with 2,750.
 
 ## Excel Dashboard
-![Pizza Dashboard](https://user-images.githubusercontent.com/116041695/235843398-097bdeb8-22f9-4e8d-8a60-882037f5f182.png)
+![Maven Pizza Dashboard](https://github.com/karlyndiary/Mavens-Pizza-Sales-Insight/assets/116041695/78250efc-c2a0-4613-8b1e-3229bcf733f8)
 
 ## Recommendations
 Having conducted a thorough analysis of the data, I've identified some valuable insights that have the potential to enhance the business. I would like to propose the following recommendations to the business owners.
