@@ -5,5 +5,4 @@ FROM pizza.dbo.orders o
 GROUP BY DATENAME(weekday, o.date) 
 ORDER BY orders DESC;
 
-
 Friday, Thursday, and Saturday are the peak days.
