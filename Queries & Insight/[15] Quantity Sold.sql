@@ -1,4 +1,4 @@
-- What is the quantity of pizzas sold?
+-- What is the quantity of pizzas sold?
 
 SELECT count(quantity) as quantity
 FROM pizza.dbo.order_details;
