@@ -1,4 +1,4 @@
--- What pizza categories are ordered?
+-- What pizza categories are most ordered?
 
 SELECT pt.category, SUM(od.quantity) AS quantity
 FROM pizza.dbo.pizza_types pt
