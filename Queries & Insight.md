@@ -2,7 +2,8 @@
 
 ### 0. Main Query
 ```
-SELECT o.order_id, o.date as order_date, o.time as order_time, DATENAME(month, o.date) as month, DATENAME(weekday, o.date) as weekday,
+SELECT o.order_id, o.date as order_date, o.time as order_time, DATENAME(month, o.date) as month,
+       DATENAME(weekday, o.date) as weekday,
        CASE
             WHEN o.time BETWEEN '00:00:00' AND '11:59:59' THEN 'Morning'
             WHEN o.time BETWEEN '12:00:00' AND '17:59:59' THEN 'Afternoon'
