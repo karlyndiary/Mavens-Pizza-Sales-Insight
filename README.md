@@ -46,7 +46,7 @@ The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-pla
 ![Pizza ER Diagram](https://user-images.githubusercontent.com/116041695/234453942-3df6eb5c-52cb-4386-a385-bec29cd8e060.png)
 
 ## Excel Dashboard
-![Maven Pizza Dashboard](https://github.com/karlyndiary/Mavens-Pizza-Sales-Insight/assets/116041695/78250efc-c2a0-4613-8b1e-3229bcf733f8)
+![Mavens Pizza Dashboard](https://github.com/user-attachments/assets/2abd1196-4201-493c-818b-18b3b0e67a83)
 
 ## Recommendations
 Having conducted a thorough analysis of the data, I've identified some valuable insights that have the potential to enhance the business. I would like to propose the following recommendations to the business owners.
