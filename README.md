@@ -42,11 +42,10 @@ The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-pla
   The pizzas table has the pizza_id as the primary key, and the pizza_type_id as the foreign key from the pizza types table, it also includes the size and price of the pizzas.
 
 ## ER Diagram
-
 ![Pizza ER Diagram](https://user-images.githubusercontent.com/116041695/234453942-3df6eb5c-52cb-4386-a385-bec29cd8e060.png)
 
 ## Excel Dashboard
-![Mavens Pizza Dashboard](https://github.com/user-attachments/assets/2abd1196-4201-493c-818b-18b3b0e67a83)
+![Mavens Pizza Dashboard](https://github.com/user-attachments/assets/2c7aee54-0f77-4028-9bee-528c1920ce29)
 
 ## Recommendations
 Having conducted a thorough analysis of the data, I've identified some valuable insights that have the potential to enhance the business. I would like to propose the following recommendations to the business owners.
