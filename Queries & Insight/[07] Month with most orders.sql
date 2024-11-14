@@ -1,7 +1,5 @@
 -- Which month experienced the highest number of orders?
 
--- Which month experienced the highest number of orders?
-
 SELECT DATENAME(month, o.date) as month,  as revenue count(o.order_id) as orders
 FROM [Pizza].[dbo].[order_details] od
 JOIN [Pizza].[dbo].[orders] o
