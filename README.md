@@ -46,6 +46,7 @@ The dataset is found on [Maven Analytics](https://www.mavenanalytics.io/data-pla
 
 ## Excel Dashboard
 ![Mavens Pizza Dashboard](https://github.com/user-attachments/assets/2c7aee54-0f77-4028-9bee-528c1920ce29)
+![Pizza Banner](https://github.com/user-attachments/assets/190fced6-a2a6-4382-919f-3d89de89cddf)
 
 ## Recommendations
 Having conducted a thorough analysis of the data, I've identified some valuable insights that have the potential to enhance the business. I would like to propose the following recommendations to the business owners.
